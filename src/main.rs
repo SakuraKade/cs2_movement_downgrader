@@ -1,6 +1,5 @@
 use std::error::Error;
 use std::fmt::{Debug, Display, Formatter};
-use std::io::Write;
 use std::panic::panic_any;
 use crate::autoexec::{AutoExec, AutoExecError};
 use crate::cs2_locator::LocateError;
@@ -57,7 +56,7 @@ enum MainError {
 
 impl From<LocateError> for MainError {
     fn from(value: LocateError) -> Self {
-        self::MainError::LocateError(value)
+        MainError::LocateError(value)
     }
 }
 
