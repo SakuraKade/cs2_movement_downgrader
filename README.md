@@ -93,7 +93,7 @@ Note this can be done manualy, this program is here to make this more accessible
 Here are the relevant functions:
 
 ```rust
-// src/autoexec.rs
+// src/auto_exec
 pub fn is_duplicate(&self) -> Result<bool, AutoExecError> {
         if !Path::new(&self.path).exists() {
             return Ok(false);

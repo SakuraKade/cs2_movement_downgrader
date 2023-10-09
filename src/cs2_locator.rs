@@ -8,9 +8,9 @@ pub(crate) struct Cs2Locator;
 
 impl<'s> Cs2Locator {
     pub fn locate() -> Result<String, LocateError> {
-        let hkey = RegKey::predef(HKEY_LOCAL_MACHINE);
-        let subkey = hkey.open_subkey(Self::get_registry_path()?)?;
-        Ok(subkey.get_value("installpath")?)
+        let key = RegKey::predef(HKEY_LOCAL_MACHINE);
+        let sub_key = key.open_subkey(Self::get_registry_path()?)?;
+        Ok(sub_key.get_value("installpath")?)
     }
 
     pub fn get_autoexec_path(game_path: String) -> String {

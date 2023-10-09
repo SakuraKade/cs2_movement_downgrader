@@ -1,11 +1,11 @@
 use std::error::Error;
 use std::fmt::{Debug, Display, Formatter};
 use std::panic::panic_any;
-use crate::autoexec::{AutoExec, AutoExecError};
+use crate::auto_exec::{AutoExec, AutoExecError};
 use crate::cs2_locator::LocateError;
 
 mod cs2_locator;
-mod autoexec;
+mod auto_exec;
 
 fn main() {
     match alt_main() {
