@@ -13,8 +13,7 @@ impl<'s> Cs2Locator {
         Ok(subkey.get_value("installpath")?)
     }
 
-    pub fn get_autoexec_path(game_path: String) -> String
-    {
+    pub fn get_autoexec_path(game_path: String) -> String {
         format!("{}\\game\\csgo\\cfg\\autoexec.cfg", game_path)
     }
 
