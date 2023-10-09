@@ -1,0 +1,10 @@
+[package]
+name = "get_csgo_movement_in_cs2"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bitness = "0.4.0"
+winreg = "0.51.0"
