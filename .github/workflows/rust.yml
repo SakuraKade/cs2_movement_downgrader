@@ -12,11 +12,11 @@ env:
 jobs:
   build:
 
-    runs-on: windows
+    runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v3
     - name: Build
-      run: cargo build --verbose
+      run: cargo build --target x86_64-pc-windows-gnu --verbose
     - name: Run tests
       run: cargo test --verbose
