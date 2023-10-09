@@ -11,12 +11,19 @@ env:
 
 jobs:
   build:
-
+    
     runs-on: ubuntu-latest
-
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - target: x86_64-pc-windows-gnu
+            archive: zip
+    
     steps:
     - uses: actions/checkout@v3
     - name: Build
+      id: compile
       run: cargo build --target x86_64-pc-windows-gnu --verbose
     - name: Run tests
       run: cargo test --verbose
