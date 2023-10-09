@@ -26,8 +26,8 @@ jobs:
       run: rustup target add x86_64-pc-windows-gnu
     - name: Install Cross
       run: cargo install cross
-    - name: Install thiserror_impl
-      run: cargo install thiserror_impl
+    - name: Add thiserror-impl
+      run: cargo add thiserror-impl
     - name: Build
       run: cross build --target x86_64-pc-windows-gnu --verbose
     - name: Run tests
