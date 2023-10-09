@@ -8,8 +8,8 @@ An easier way to add some lines to the autoexec for people prefering the easy wa
 
 1. Add Launch Options
    
-   ![Open Properties](images\ClickProperties.png)
-   ![Launch options](images\LaunchOptions.png)
+   ![Open Properties](/images/ClickProperties.png)
+   ![Launch options](/images/LaunchOptions.png)
 
 2. Run get_csgo_movement_in_cs2.exe
 
