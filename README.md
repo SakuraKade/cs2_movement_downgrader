@@ -8,7 +8,7 @@ An easier way to add some lines to the autoexec for people prefering the easy wa
 
 **Windows defender flags this as malware, this is a false positive.**
 
-**As of now Unix platforms like Linux and Mac are not supported.**
+**As of now Mac is not supported.**
 
 Feel free to audit and contribute.
 
