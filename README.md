@@ -14,7 +14,7 @@ Feel free to audit and contribute.
 
 ---
 
-### Installation
+### How to use
 
 1. Add Launch Options
    
