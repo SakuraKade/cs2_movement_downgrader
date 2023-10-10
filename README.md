@@ -20,6 +20,7 @@ This program adds some binds to the autoexec file.
 If it does not exist it creates a new one.
 
 The commands are found in this tweet: https://twitter.com/SPUNJ/status/1709625427625447781
+This makes the movement in CS2 feel more like what is was in CS:GO
 
 Note this can be done manualy, this program is here to make this more accessible for less tech savy people.
 
