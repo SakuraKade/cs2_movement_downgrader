@@ -37,6 +37,7 @@ name = "cs2_movement_downgrader"
 version = "0.1.0"
 dependencies = [
  "bitness",
+ "walkdir",
  "winreg",
 ]
 
