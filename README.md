@@ -6,7 +6,7 @@ An easier way to add some lines to the autoexec for people prefering the easy wa
 
 ### **Notice**
 
-**Windows defender currently detects this as malware.**
+**Windows defender flags this as malware, this is a false positive.**
 
 **As of now Unix platforms like Linux and Mac are not supported.**
 
