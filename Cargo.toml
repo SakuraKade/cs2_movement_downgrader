@@ -1,5 +1,5 @@
 [package]
-name = "get_csgo_movement_in_cs2"
+name = "cs2_movement_downgrader"
 version = "0.1.0"
 edition = "2021"
 
