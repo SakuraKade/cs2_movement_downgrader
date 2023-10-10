@@ -14,6 +14,17 @@ Feel free to audit and contribute.
 
 ---
 
+### What does it do?
+
+This program adds some binds to the autoexec file.
+If it does not exist it creates a new one.
+
+The commands are found in this tweet: https://twitter.com/SPUNJ/status/1709625427625447781
+
+Note this can be done manualy, this program is here to make this more accessible for less tech savy people.
+
+Technical explanation down near the end of the readme.
+
 ### How to use
 
 1. Add Launch Options
@@ -51,18 +62,8 @@ Nothing really, Just follow Kardemome loven
 
 ---
 
-### What does it do?
 
-##### In short:
-
-This program adds some binds to the autoexec file.
-If it does not exist it creates a new one.
-
-The commands are found in this tweet: https://twitter.com/SPUNJ/status/1709625427625447781
-
-Note this can be done manualy, this program is here to make this more accessible for less tech savy people.
-
-##### Long answer:
+##### Technical explanation:
 
 1. First it finds cs2 by reading registry key
    
