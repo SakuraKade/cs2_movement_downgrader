@@ -1,4 +1,4 @@
-# get_csgo_movement_in_cs2
+# cs2_movement_downgrader
 
 An easier way to add some lines to the autoexec for people prefering the easy way.
 
@@ -33,7 +33,7 @@ Technical explanation down near the end of the readme.
    ![Open Properties](/images/ClickProperties.png)
    ![Launch options](/images/LaunchOptions.png)
 
-2. Run get_csgo_movement_in_cs2.exe
+2. Run cs2_movement_downgrader.exe
 
 3. Done!
 
