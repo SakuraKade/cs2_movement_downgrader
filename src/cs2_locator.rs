@@ -1,6 +1,7 @@
 use std::error::Error;
 use std::fmt::{Debug, Display, Formatter};
 
+#[cfg(target_os = "linux")]
 use walkdir::WalkDir;
 
 #[cfg(target_os = "windows")]
